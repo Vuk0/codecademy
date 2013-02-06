@@ -12,7 +12,7 @@ $(document).ready(function() {
     '</div>' +
     '<div class="container">' +
     '<div class="row"><div class="span12">' +
-    '<button class="btn submit_button">Run your code</a>' +
+    '<button class="btn submit_button">Run your code</button>' +
     '<code class="result"></div>' +
     '</div></div>' +
     '</div>'
