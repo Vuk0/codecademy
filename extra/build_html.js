@@ -8,8 +8,13 @@ $(document).ready(function() {
     '<div class="navbar navbar-inverse navbar-top">' +
     '<div class="navbar-inner">' +
     '<a class="brand" href="#"><img style="position: relative; top: -2px;" src="https://betadev.gilt.com/assets/img/gilt-logo-header.png"> <span>Developers</span></a>' +
-    ' for <img src="http://www.codecademy.com/assets/codecademy_logo_smallest-0323fdd409fc100a1991db8aa706f57e.png" />' +
     '</div>' +
+    '</div>' +
+    '<div class="container">' +
+    '<div class="row"><div class="span12">' +
+    '<button class="btn submit_button">Run your code</a>' +
+    '<code class="result"></div>' +
+    '</div></div>' +
     '</div>'
     );
 });
