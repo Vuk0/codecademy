@@ -10,11 +10,9 @@ $(document).ready(function() {
     '<a class="brand" href="#"><img style="position: relative; top: -2px;" src="https://betadev.gilt.com/assets/img/gilt-logo-header.png"> <span>Developers</span></a>' +
     '</div>' +
     '</div>' +
-    '<div class="container">' +
-    '<div class="row"><div class="span12">' +
-    '<button class="btn submit_button">Run your code</button>' +
-    '<code class="result"></div>' +
-    '</div></div>' +
+    '<div class="container-fluid">' +
+    '<div class="row-fluid"><div class="span12"><button class="btn submit_button">Run your code</button></div></div>' +
+    '<div class="row-fluid"><div class="span12"><code class="result"></code></div></div>' +
     '</div>'
     );
 });
