@@ -12,7 +12,7 @@ $(document).ready(function() {
     '</div>' +
     '<div class="container-fluid">' +
     '<div class="row-fluid"><div class="span12"><button class="btn submit_button">Run your code</button></div></div>' +
-    '<div class="row-fluid"><div class="span12"><code class="result" style="width: 500px; height: 400px; overflow: auto;"></code></div></div>' +
+    '<div class="row-fluid"><div class="span12"><div class="result" style="width: 500px; height: 400px; overflow: auto;"></div></div></div>' +
     '</div>'
     );
 });
