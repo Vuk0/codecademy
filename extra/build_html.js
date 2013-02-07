@@ -14,7 +14,7 @@ $(document).ready(function() {
     '</div>' +
     '</div>' +
     '<div class="container-fluid">' +
-    '<div class="row-fluid"><div class="span12"><button class="btn submit_button">Run your code</button></div></div>' +
+    '<div class="row-fluid"><div class="span12"><button class="btn submit_button">Run your code</button> <span class="label label-info loading" style="display: none;">Loading...</span></div></div>' +
     '<div class="row-fluid"><div class="span12"><div class="dataresult"></div></div></div>' +
     '</div>'
     );
