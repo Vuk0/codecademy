@@ -17,7 +17,7 @@ $(document).ready(function() {
     '<div class="row-fluid"><div class="span12"><button class="btn submit_button">Run your code</button> <span class="label label-info loading" style="display: none;">Loading...</span></div></div>' +
     '<div class="row-fluid"><div class="span12"><div style="display: none;" class="progress progress-striped active"><div class="bar" style="width: 0%;"></div></div></div></div>' +
     '<div class="row-fluid"><div class="span12"><div class="dataresult"></div></div></div>' +
-    '<div class="row-fluid"><div class="span12"><div style="display: none;" class="selects"><select class="brand span3"></select> <select class="category span3"></select> <select class="price span3"></select></div></div></div>' +
+    '<div class="row-fluid"><div class="span12"><div style="display: none;" class="selects"><select class="brand span4"></select> <select class="category span4"></select> <select class="price span4"></select></div></div></div>' +
     '</div>'
     );
 });
