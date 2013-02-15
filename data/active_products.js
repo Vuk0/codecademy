@@ -1,4 +1,4 @@
-$(window).trigger("products", [
+$(window).trigger("products", { products: [
   {
     "name": "Navajo Sweater",
     "product": "https://api.gilt.com/v1/products/177051229/detail.json",
@@ -91872,4 +91872,4 @@ $(window).trigger("products", [
       "Children"
     ]
   }
-]);
+]});
