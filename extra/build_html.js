@@ -1,8 +1,8 @@
 // build styled page HTML
 $(document).ready(function() {
   $('head').append(
-    '<link href="https://betadev.gilt.com/assets/stylesheets/bootstrap.min.css" rel="stylesheet" />' +
-    '<link href="https://betadev.gilt.com/assets/stylesheets/custom.css" rel="stylesheet" />' +
+    '<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/js/bootstrap.min.js" rel="stylesheet" />' +
+    '<link href="https://dev.gilt.com/assets/stylesheets/custom.css" rel="stylesheet" />' +
     '<style>' +
     '.dataresult { width: 500px; height: 261px; overflow: auto; font-family: monospace; white-space: pre; background-color: #ddd; padding: 10px; border: 1px solid #ccc; }' +
     '</style>'
@@ -10,7 +10,7 @@ $(document).ready(function() {
   $('body').html(
     '<div class="navbar navbar-inverse navbar-top">' +
     '<div class="navbar-inner">' +
-    '<a class="brand" href="#"><img style="position: relative; top: -2px;" src="https://betadev.gilt.com/assets/img/gilt-logo-header.png"> <span>Developers</span></a>' +
+    '<a class="brand" href="#"><img style="position: relative; top: -2px;" src="https://dev.gilt.com/assets/img/gilt-logo-header.png"> <span>Developers</span></a>' +
     '</div>' +
     '</div>' +
     '<div class="container-fluid">' +
