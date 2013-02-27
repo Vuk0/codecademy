@@ -1,7 +1,7 @@
 // build styled page HTML
 $(document).ready(function() {
   $('head').append(
-    '<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/js/bootstrap.min.js" rel="stylesheet" />' +
+    '<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet" />' +
     '<link href="https://dev.gilt.com/assets/stylesheets/custom.css" rel="stylesheet" />' +
     '<style>' +
     '.dataresult { width: 500px; height: 261px; overflow: auto; font-family: monospace; white-space: pre; background-color: #ddd; padding: 10px; border: 1px solid #ccc; }' +
